@@ -1,2 +1,2 @@
-# -nexskillflutterdevbatch6
+# nexskillflutterdevbatch6
 To share code with the enrolled students
