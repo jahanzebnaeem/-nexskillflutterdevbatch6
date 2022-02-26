@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -15,25 +15,72 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                width: 100.0,
-                height: 100.0,
-                color: Colors.white,
-                child: Text('Container 1'),
+              const CircleAvatar(
+                backgroundImage: AssetImage("images/jahanzeb.png"),
+                radius: 50.0,
               ),
-              Container(
-                width: 100.0,
-                height: 100.0,
-                color: Colors.blue,
-                child: Text('Container 2'),
+              Text(
+                'Jahanzeb Naeem',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  fontFamily: 'Pacifico',
+                  color: Colors.teal.shade900,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-              Container(
-                width: 100.0,
-                height: 100.0,
-                color: Colors.yellow,
-                child: Text('Container 3'),
+              Text(
+                'FLUTTER DEVELOPER | SE',
+                style: TextStyle(
+                  fontSize: 20.0,
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                  thickness: 3.0,
+                ),
+              ),
+              Card(
+                margin: const EdgeInsets.only(
+                  top: 15.0,
+                  left: 15.0,
+                  right: 15.0,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.call,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    '+92 123-456-7890',
+                    style:
+                        TextStyle(color: Colors.teal.shade900, fontSize: 20.0),
+                  ),
+                ),
+              ),
+              Card(
+                margin: const EdgeInsets.only(
+                  top: 15.0,
+                  left: 15.0,
+                  right: 15.0,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    'test@test.com',
+                    style:
+                        TextStyle(color: Colors.teal.shade900, fontSize: 20.0),
+                  ),
+                ),
               ),
             ],
           ),
