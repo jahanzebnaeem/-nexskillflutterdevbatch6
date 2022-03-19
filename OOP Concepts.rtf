@@ -10,9 +10,18 @@
 \f0\fs128 \cf0 \ul \ulc0 OOP Concepts\
 
 \fs72 \ulnone Class (Blueprint), Object & Instance\
-Person \{ id, name, age\}; Class\
+Person \{ \
+	int id; \
+	String name; \
+	Int age; \
+	Person (int Id, string Name, int Age) \
+	\{\
+		id = Id; name = Name; age = Age\
+	\} \
+\}; Class\
 Person p = Person(); Object\
 p.name = \'91Jahanzeb\'92; Instance\
+\
 \
 4 pillars
 \fs48 \
@@ -37,7 +46,6 @@ p.name = \'91Jahanzeb\'92; Instance\
 Overloading VS Overriding\
 Specialisation VS Generalisation\
 \
-// TODO:\
 Constructors VS Destructors\
 Methods VS Functions\
 \
@@ -46,6 +54,9 @@ Getter/Setter (methods)\
 Abstract Class\
 Instance Variables\
 \
+Association (Relationship)\
+	Composition\
+	Aggregation \
 \
 \
 }
