@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746676322201",
+    "project_id": "flutterb6chat",
+    "storage_bucket": "flutterb6chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746676322201:android:9237e353cca56ac1099d08",
+        "android_client_info": {
+          "package_name": "com.nexskill.flash_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746676322201-4invel0utpuv1q7miirvdksbq86334se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmUv6YtmTjIyI2_YjH6Ap2xLeAd_QMz-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746676322201-4invel0utpuv1q7miirvdksbq86334se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
